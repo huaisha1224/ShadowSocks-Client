@@ -50,9 +50,9 @@ ShadowSocks Server端可以绑定多个端口、以减少一个端口流量太�
         "method":"aes-256-cfb"
     }
 
-在`cmd`下切换到`config.json`目录、然后运行`local.py`
+在`cmd`下切换到`config.json`目录、然后运行`ShadowSocks_local.py`
 
-      local.py
+      ShadowSocks_local.py
       
 
 然后把浏览器代理修改为如下即可：
