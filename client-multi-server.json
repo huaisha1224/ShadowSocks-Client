@@ -1,0 +1,12 @@
+{   
+    "server_password":
+    [
+    ["my_server_ip1", 10086, "123456789cde"],
+    ["my_server_ip2", 10087, "369852147zxc"],
+    ["my_server_ip3", 10088, "qazwsxedcrfv"],
+    ["my_server_ip4", 10089, "barfoo!abcde"]
+    ]
+    "local_port":1080,
+    "timeout":600,
+    "method":"aes-256-cfb"
+}
