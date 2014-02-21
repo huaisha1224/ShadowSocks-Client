@@ -188,7 +188,7 @@ def main():
                 #获得"server_password"的长度,得到服务器多端口记录数据
                 number = len(config["server_password"]) 
                 #通过random取一个随机数、来随机分配用哪一条服务器端口密码记录
-                orientation = random.randint(0, number) 
+                orientation = random.randint(0, number - 1) 
                 server_dict = {}
                 server_dict[u"server"]= config["server_password"][orientation][0]
                 server_dict[u"server_port"] = config["server_password"][orientation][1]
