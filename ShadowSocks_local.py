@@ -46,6 +46,7 @@ import logging
 import getopt
 import random
 import encrypt
+import crypto.table as table
 import utils
 
 
@@ -234,7 +235,7 @@ def main():
 
     utils.check_config(config)
         
-    encrypt.init_table(KEY, METHOD)
+    table.init_table(KEY)
 
     try:
         if IPv6:
