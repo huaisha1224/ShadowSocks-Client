@@ -17,14 +17,16 @@ ShadowSocks Server端可以绑定多个端口、以减少一个端口流量太�
     $ python --version
     Python 2.7.5
     
-下载ShadowSocks-Client
-
 Ubuntu用户需检查是M2Crypto是否已经安装
 
     $ sudo apt-get install python-dev
     $ sudo apt-get install python-m2crypto
 
-在`ShadowSocks-Client`目录下建立一个`config.json`文件、内容如下：
+下载ShadowSocks-Client
+
+    $ git clone git@github.com:qwIvan/ShadowSocks-Client.git
+
+修改`ShadowSocks-Client`目录下的`config.json`文件，格式如下：
 
     {
         "server":"my_server_ip",
@@ -37,8 +39,6 @@ Ubuntu用户需检查是M2Crypto是否已经安装
     
     
 多服务器IP、端口和密码的`config.json`格式如下：
-
-
 
     {   
         "server_password":
@@ -53,7 +53,7 @@ Ubuntu用户需检查是M2Crypto是否已经安装
         "method":"aes-256-cfb"
     }
 
-在`cmd`下切换到`config.json`目录、然后运行`ShadowSocks_local.py`
+在命令行下切换到`config.json`目录、然后运行`ShadowSocks_local.py`
 
       ShadowSocks_local.py
       
