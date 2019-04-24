@@ -38,7 +38,7 @@ ShadowSocks Server端可以绑定多个端口、以减少一个端口流量太�
 
 
     {   
-        “server_password”:
+        "server_password":
         [
         ["my_server_ip1", 10086, "123456789cde"],
         ["my_server_ip2", 10087, "369852147zxc"],
